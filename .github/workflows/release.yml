@@ -1,8 +1,28 @@
 name: Release
 
+
 on:
   push:
-    branches: ["main"]
+    branches: ["feature/release-notes"]
+
+changelog:
+  exclude:
+    labels:
+      - ignore-for-release
+    authors:
+      - octocat
+  categories:
+    - title: Breaking Changes 🛠
+      labels:
+        - Semver-Major
+        - breaking-change
+    - title: Exciting New Features 🎉
+      labels:
+        - Semver-Minor
+        - enhancement
+    - title: Other Changes
+      labels:
+        - "*"
 
 jobs:
 
@@ -261,3 +281,7 @@ jobs:
           automatic_release_tag: latest
           prerelease: false
           title: Latest Release ${{ needs.check-version.outputs.version }}
+      - name: Build changelog
+
+
+        
