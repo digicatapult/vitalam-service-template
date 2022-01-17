@@ -3,9 +3,9 @@ entries:
   vitalam-service-template:
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2022-01-17T10:21:53.440591229Z"
+    created: "2022-01-17T15:50:35.133865075Z"
     description: A Helm chart for vitalam-service-template
-    digest: 73117c804e23cdf437a49642dd22b537eb89c744ab24d11c0da4708c2cc5ad60
+    digest: 4cca578f68416682e7894bc3b88964ac7bbe8b8f8b235795a03fff15ac00a3bf
     maintainers:
     - email: opensource@digicatapult.org.uk
       name: digicatapult
@@ -43,4 +43,4 @@ entries:
     urls:
     - https://digicatapult.github.io/vitalam-service-template/vitalam-service-template-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-17T10:21:53.440139421Z"
+generated: "2022-01-17T15:50:35.133422971Z"
