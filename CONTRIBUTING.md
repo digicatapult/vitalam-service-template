@@ -20,10 +20,7 @@ The following is a set of guidelines for contributing to VITALam and its package
 [Styleguides](#styleguides)
 
 - [Git Commit Messages](#git-commit-messages)
-
-[Additional Notes](#additional-notes)
-
-- [Issue and Pull Request Labels](#issue-and-pull-request-labels)
+- [Pull Request Labels](#pull-request-labels)
 
 ## Code of Conduct
 
@@ -139,7 +136,7 @@ While the prerequisites above must be satisfied prior to having your pull reques
   - :arrow_down: `:arrow_down:` when downgrading dependencies
   - :shirt: `:shirt:` when removing linter warnings
 
-#### Pull Request Labels
+### Pull Request Labels
 
 | Label name        | :mag_right:                                    | Description                                                                          |
 | ----------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------ |
