@@ -15,7 +15,7 @@ changelog:
     - title: Bug Fixes 🐛
       labels:
         - bug
-    - title: Maintenance `:gear:`
+    - title: Maintenance 🔧
       labels:
         - chore
     - title: Other Changes
