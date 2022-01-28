@@ -16,7 +16,7 @@
     "url": "git+https://github.com/digicatapult/vitalam-service-template.git"
   },
   "engines": {
-    "node": ">=14.17.0"
+    "node": "16.13.2"
   },
   "keywords": [
     "VITALam"
