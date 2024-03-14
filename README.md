@@ -1,5 +1,9 @@
 # vitalam-service-template
 
+## Deprecation Notice
+This application was deprecated on March 14th 2024, there will be no further dependency or security updates.
+---
+
 Template repository for bootstrapping new VITALam services. Use this repo as a template in github when creating new `VITALam` services. When forked a new pull request will automatically be created in the new repository to apply templating. Before merging you should also give access to the forked repo the `GITHUB_TOKEN` organisation secret prior to merging. This will allow the release workflow to run successfully on merging.
 
 ## What this repo provides
